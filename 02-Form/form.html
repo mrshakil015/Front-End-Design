@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style/form.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form action="">
+                <label for="name">Your Name: 
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email: 
+                    <input id="email" type="email" placeholder="Your Email">
+                </label>
+                <label for="phone">Your Phone: 
+                    <input id="phone" type="text" placeholder="Your Phone">
+                </label>
+
+                <fieldset>
+                    <legend>Choose One or More Language</legend>
+                    <label for="python">
+                        <input type="checkbox" name="language" id="python">Python
+                    </label>
+                    <label for="js">
+                        <input type="checkbox" name="language" id="js">JavaScript
+                    </label>
+                    <label for="kotlin">
+                        <input type="checkbox" name="language" id="kotlin">Kotlin
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick One IDE</legend>
+                    <label for="vscode">
+                        <input type="radio" name="ide" id="vscode">VS Code
+                    </label>
+                    <label for="pycharm">
+                        <input type="radio" name="ide" id="pycharm">Pycharm
+                    </label>
+                    <label for="astudio">
+                        <input type="radio" name="ide" id="astudio">Android Studio
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" rows="2" cols="50"></textarea>
+                </fieldset>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
