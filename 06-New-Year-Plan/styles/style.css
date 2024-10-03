@@ -3,6 +3,7 @@ body {
   font-optical-sizing: auto;
   margin: 0;
 }
+/* ---Banner Section--- */
 .banner {
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
@@ -11,6 +12,7 @@ body {
   justify-content: flex-end;
   padding: 20px;
 }
+
 .banner-content {
   width: 500px;
   text-align: right;
@@ -37,4 +39,35 @@ body {
     font-weight: 600;
     border: 0;
     border-radius: 5px;
+}
+
+/* ---Pre Year section--- */
+.pre-year{
+    margin: 0px 200px;
+}
+
+.pre-year-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pre-year-container img{
+    width: 400px;
+    margin-right: 90px;
+}
+
+.section-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-description{
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.pre-year-container li{
+    color: #16d887;
 }
