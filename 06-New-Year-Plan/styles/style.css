@@ -43,11 +43,13 @@ body {
 
 /* ---Pre Year section--- */
 .pre-year{
-    margin: 0px 200px;
+    margin-top: 150px;
+
 }
 
 .pre-year-container{
     display: flex;
+    margin: 0px 130px;
     align-items: center;
     justify-content: space-between;
 }
@@ -70,4 +72,42 @@ body {
 }
 .pre-year-container li{
     color: #16d887;
+}
+
+/* ---Plan styles */
+.plans{
+    margin-top: 150px;
+}
+.plans-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    margin: 0 130px;
+    justify-content: space-between;
+}
+.plan{
+    text-align: center;
+}
+.plan-container img{
+    width: 90px;
+    margin: 0;
+}
+
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+
+.plan-description{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
 }
