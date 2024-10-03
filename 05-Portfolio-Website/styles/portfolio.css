@@ -1,3 +1,5 @@
+/* --Shared styles */
+
 body {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -13,6 +15,17 @@ body {
     border: 0;
     border-radius: 5px;
     padding: 15px 35px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
 /* --- nav related styles--*/
 nav{
@@ -76,4 +89,15 @@ nav a{
 }
 .banner-description{
     margin-top: 0px;
+}
+
+/* ---main section styles--- */
+
+
+/* ---about section styles---- */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
 }
