@@ -235,6 +235,30 @@ footer{
     size: 24px;
 }
 
+/* --Mobile Devices-- */
+@media screen and (max-width: 576px) {
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"],.contact input[type="email"], textarea{
+        width: 80%;
+    }
+
+}
+
+/* --Medium Devices-- */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    footer{
+        padding: 30px;
+    }
+    .contact input[type="text"],.contact input[type="email"], textarea{
+        width: 80%;
+    }
+}
 /* ---Responsive Breakpoint--- */
 .hide{
     display: none;
