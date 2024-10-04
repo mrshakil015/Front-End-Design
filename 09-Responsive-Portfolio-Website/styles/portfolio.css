@@ -115,7 +115,7 @@ nav a{
     }
     .banner .profile-picture{
         width: 100%;
-        
+
     }
     .btn-primary{
         margin-bottom: 10px;
@@ -330,8 +330,4 @@ footer{
     .contact input[type="text"],.contact input[type="email"], textarea{
         width: 80%;
     }
-}
-/* ---Responsive Breakpoint--- */
-.hide{
-    display: none;
 }
