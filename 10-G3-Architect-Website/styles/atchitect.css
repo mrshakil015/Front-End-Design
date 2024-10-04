@@ -28,7 +28,7 @@ body{
 /* ----Header Styles----- */
 header{
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 0 140px 50px  140px;
 }
 
 nav{
@@ -111,7 +111,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 76px;
+    padding: 0 240px;
 }
 .teams-container div{
     width: 50%;
@@ -185,7 +185,7 @@ section{
 
 /* ---Features Styles--- */
 .features{
-    padding: 0 70px;
+    padding: 0 140px;
 }
 .features-container{
     display: flex;
@@ -228,4 +228,55 @@ section{
     font-weight: 600;
     padding: 0;
     margin: 0;
+}
+
+@media screen and (max-width: 576px) {
+    .features{
+        padding: 0 20px;
+    }
+    .features-container{
+        flex-direction: column;
+    }
+    .features-container > div{
+        width: 100%;
+    }
+    .feature-content{
+        padding: 20px;
+        text-align: center;
+    }
+    .feature-title{
+        font-size: 2rem;
+        border-left: 0;
+        border-bottom: 5px solid #FF900E;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .features{
+        padding: 0 50px;
+    }
+    .features-container{
+        flex-direction: column;
+    }
+    .features-container > div{
+        width: 100%;
+    }
+    .feature-content{
+        padding: 20px;
+        text-align: center;
+    }
+    .feature-title{
+        font-size: 2rem;
+        border: 0;
+        padding-bottom: 10px;
+    }
+    .feature-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;       
+    }
+    .feature-item{
+        margin: 0;
+    }
 }
