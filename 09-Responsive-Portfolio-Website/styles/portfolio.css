@@ -91,6 +91,66 @@ nav a{
     margin-top: 0px;
 }
 
+/* --Mobile Devices-- */
+@media screen and (max-width: 576px) {
+    nav, nav > ul, .banner{
+        flex-direction: column;
+    }
+    nav{
+        margin: 0;
+    }
+    nav > ul{
+        gap: 10px;
+        padding: 0;
+    }
+    nav li{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        padding: 20px 20px 0 20px;
+    }
+    .banner .profile-picture{
+        width: 100%;
+        
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 10px 25px;
+    }
+
+}
+
+/* --Medium Devices-- */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .banner .profile-picture{
+        width: 250px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    nav{
+        margin: 0px;
+    }
+    nav > ul{
+        gap: 10px;
+        padding: 0;
+    }
+    nav li{
+        padding: 0;
+        margin: 0;
+    }
+    .banner{
+        padding: 20px 20px 0 20px;
+    }
+    
+    
+}
+
 /* ---main section styles--- */
 main{
     max-width: 1140px;
