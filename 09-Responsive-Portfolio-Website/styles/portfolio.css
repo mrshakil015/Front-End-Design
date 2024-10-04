@@ -189,7 +189,7 @@ main section{
 .resume-item-institute{
     color: #757575;
 }
-sume-container hr{
+.resume-container hr{
     margin: 30px 30px 30px 0;
 }
 
@@ -197,6 +197,15 @@ sume-container hr{
     text-align: center;
     margin-top: 50px;
 }
+
+/* --Mobile Devices-- */
+@media screen and (max-width: 576px) {
+    .resume-container{
+        flex-direction: column;
+    }
+
+}
+
 
 /* ---footer styles-- */
 footer{
