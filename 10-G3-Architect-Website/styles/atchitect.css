@@ -102,7 +102,7 @@ main{
     max-width: 1440px;
     margin: 0 auto;
 }
-section{
+section,footer{
     margin-top: 85px;
 }
 
@@ -465,3 +465,43 @@ section{
     }
 }
 
+/* footer */
+footer{
+    padding: 30px 140px;
+}
+footer .copyright{
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .copyright span{
+    color:#424242;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    footer{
+        padding: 20px;
+        margin-top: 0px;
+    }
+
+    footer .copyright span{
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    footer{
+        padding: 50px;
+        margin-top: 0px;
+    }
+
+    footer .copyright span{
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
