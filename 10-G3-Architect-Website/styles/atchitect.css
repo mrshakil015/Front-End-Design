@@ -327,3 +327,29 @@ section{
     font-weight: 600;
     margin: 0;
 }
+
+@media screen and (max-width: 576px) {
+    .facts{
+        padding: 20px;
+    }
+    .fact-content{
+        width: 100%;
+    }
+    .fact-items{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .facts{
+        padding: 50px;
+    }
+    .fact-content{
+        width: 100%;
+    }
+    .fact-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
