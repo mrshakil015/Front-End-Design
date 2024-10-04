@@ -93,3 +93,54 @@ nav li a{
         flex-direction: column;
     }
 }
+
+/* ===Main Styles=== */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 85px;
+}
+
+/* ----teams-container Section---- */
+.teams-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 76px;
+}
+.teams-container div{
+    width: 50%;
+}
+.teams-container .team-photo img{
+    width: 100%;
+}
+.teams-container .team-photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.teams-container .team-content{
+    padding-left:76px;
+}
+.team-content-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.team-content-title .t-1{
+    color: #727272;
+    font-weight: 500;
+}
+.team-content-title .t-2{
+    color: #FF900E;
+}
+.team-content-description{
+    color:#727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0;
+}
