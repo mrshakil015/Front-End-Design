@@ -119,6 +119,18 @@ main section{
     margin-bottom: 0;
 }
 
+/* --Mobile Devices-- */
+@media screen and (max-width: 576px) {
+    .about{
+        padding: 10px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+
+}
+
+
 /* --What I do styles-- */
 .what-i-do{
     margin: 130px 0;
@@ -149,7 +161,7 @@ main section{
     }
 }
 /* --Medium Devices-- */
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 960px) {
     .skills-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
