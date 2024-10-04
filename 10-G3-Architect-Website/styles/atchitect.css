@@ -82,6 +82,9 @@ nav li a{
     nav{
         flex-direction: column;
     }
+    .nav-title{
+        font-size:2rem;
+    }
     
 }
 
@@ -143,4 +146,46 @@ section{
     font-weight: 400;
     line-height: 26px;
     margin: 24px 0;
+}
+
+@media screen and (max-width: 576px) {
+    section{
+        margin-top: 50px;
+    }
+    .teams-container{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .teams-container div{
+        width: 100%;
+    }
+    .teams-container .team-photo{
+        margin-top: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+    .teams-container .team-content{
+        padding-left:0px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    section{
+        margin-top: 50px;
+    }
+    .teams-container{
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+    .teams-container div{
+        width: 100%;
+    }
+    .teams-container .team-photo{
+        margin-top: 20px;
+    }
+    .teams-container .team-content{
+        padding-left:0px;
+        text-align: center;
+    }
 }
