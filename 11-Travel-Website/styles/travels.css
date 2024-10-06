@@ -297,5 +297,45 @@ form{
     .about-image img{
         width: 100%;
         margin-top: 24px;
+        
     }
+}
+
+/* --Destination Section--- */
+.destination-container{
+    text-align: center;
+}
+
+.destination-container .section-title{
+    margin: 0;
+}
+
+.destination-container img{
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+}
+
+.two-column, .three-column, .left-column{
+    display: flex;
+    gap: 24px;
+}
+
+.two-column div{
+    width: 50%;
+}
+
+.three-column, .left-column{
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 992px) {
+    .two-column, .three-column, .left-column{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .two-column div{
+        width: 100%;
+    }
+    
 }
