@@ -5,6 +5,14 @@
 }
 
 /* ----Shared Styles--- */
+.btn-primary{
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
 
 /* ---Header Sytles--- */
 header{
@@ -94,4 +102,78 @@ nav li a:hover{
     nav .logo img{
         height: 35px;
     }
+}
+/* ---Main Section--- */
+main{
+    padding: 0 135px;
+}
+
+/* ------Banner Section ----------- */
+.banner-container{
+    padding: 0 185px;
+    text-align: center;
+    background: 
+        linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+        url('../Images/Group-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 200px;
+}
+.find-container{
+    border-radius: 8px;
+    background: rgba(200, 200, 200, 0.3);
+    padding: 16px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 16px; /* Adjust padding for icon spacing */
+    height: 40px; /* Adjust the height to your design */
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+.input-container input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.input-container input:focus{
+    border: none;
+}
+.input-container i {
+    position: absolute;
+    right: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: rgba(19, 19, 24, 0.50);
 }
