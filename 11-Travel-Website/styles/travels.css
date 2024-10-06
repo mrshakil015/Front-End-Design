@@ -45,6 +45,10 @@ nav li{
     list-style: none;
     margin-right: 44px;
 }
+
+nav > ul span{
+    display: none;
+}
 nav li a{
     text-decoration: none;
     color: var(--Dark-02, #424247);
@@ -61,11 +65,11 @@ nav li a:hover{
     header{
         padding: 20px;
     }
-    nav{
-        flex-direction: column;
+    nav > ul li{
+        display: none;
     }
-    nav > ul{
-        flex-direction: column;
+    nav > ul span{
+        display: flex;
     }
     nav .logo img{
         height: 35px;
@@ -76,4 +80,18 @@ nav li a:hover{
         font-weight: 800;
     }
    
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header{
+        padding: 50px;
+    }
+    nav > ul li{
+        display: none;
+    }
+    nav > ul span{
+        display: flex;
+    }
+    nav .logo img{
+        height: 35px;
+    }
 }
